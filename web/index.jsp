@@ -9,11 +9,10 @@
         <title>Struts 2 Form Tags</title> 
     </head> 
     <body> 
-        <p><a href='<s:url action="LotteryAction" />' >Oil</a></p> 
-        
+        <p><a href='<s:url action="oilAction" />' >Oil</a></p>   
         <p><a href='<s:url action="LotteryAction" />' >Lottery Data</a></p> 
         <p><a href='<s:url action="LotteryCheckAction" />' >Check Lottery</a></p> 
-        <p><a href='<s:url action="API_Econ" />' >Weather</a></p> 
+        <p><a href='<s:url action="WeatherAction" />' >Weather</a></p> 
     </body> 
 </html> 
 
