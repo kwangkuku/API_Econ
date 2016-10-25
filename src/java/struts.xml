@@ -24,7 +24,7 @@
             <result name = "SUCCESS" type="json"/>
         </action>
         
-        <action name="API_Econ" class="com.econprice.action.WeatherAction">
+        <action name="WeatherAction" class="com.econprice.action.WeatherAction">
             
             <result name = "SUCCESS" type="json"/>
         </action>
