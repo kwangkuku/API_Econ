@@ -5,10 +5,28 @@
  */
 package com.econprice.action;
 
+import com.econprice.model.OilModel;
+
 /**
  *
  * @author Acer
  */
 public class OilAction {
+
+    private static final long serialVersionUID = 1L;
+    private OilModel oilData = new OilModel();
+
+    public OilModel getOilData() {
+        return oilData;
+    }
+
+    public void setOilData(OilModel oilData) {
+        this.oilData = oilData;
+    }
     
+    public String execute() {
+        System.out.print("");
+        return "SUCCESS";
+    }
+
 }
