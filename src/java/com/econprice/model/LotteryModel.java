@@ -11,16 +11,34 @@ package com.econprice.model;
  */
 public class LotteryModel {
 
-    private String datePast = "16-9-2016";
-    private String lotteryPrize1 = "553213";
-    private String lotteryPrizeEnd2Digit = "24";
-    private String lotteryPrizeEnd3Digit = "311";
-    private String lotteryPrizeTop3Digit = "000";
-    private String lotteryPrizeNear1 = "134240";
-    private String lotteryPrize2 = "546123";
-    private String lotteryPrize3 = "431324";
-    private String lotteryPrize4 = "123456";
-    private String lotteryPrize5 = "971321";
+    private String datePast;
+    private String Prize1;
+    private String PrizeEnd2Digit;
+    private String PrizeEnd3Digit;
+    private String PrizeTop3Digit;
+    private String PrizeNear1;
+    private String Prize2;
+    private String Prize3;
+    private String Prize4;
+    private String Prize5;
+
+    public LotteryModel( String datePast,String Prize1, String PrizeEnd2Digit, String PrizeEnd3Digit, String PrizeTop3Digit, String PrizeNear1, String Prize2, String Prize3, String Prize4, String Prize5) {
+        this.datePast = datePast;
+        this.Prize1 = Prize1;
+        this.PrizeEnd2Digit = PrizeEnd2Digit;
+        this.PrizeEnd3Digit=PrizeEnd3Digit;
+        this.PrizeTop3Digit = PrizeTop3Digit;
+        this.PrizeNear1= PrizeNear1;
+        this.Prize2 = Prize2;
+        this.Prize3= Prize3;
+        this.Prize4 = Prize4;
+        this.Prize5 = Prize5;
+    }
+//    public LotteryModel(String datePast, String Prize1, String PrizeEnd2Digit) {
+//        this.datePast = datePast;
+//        this.Prize1 = Prize1;
+//        this.PrizeEnd2Digit = PrizeEnd2Digit;
+//    }
 
     public String getDatePast() {
         return datePast;
@@ -30,77 +48,76 @@ public class LotteryModel {
         this.datePast = datePast;
     }
 
-    public String getLotteryPrize1() {
-        return lotteryPrize1;
+    public String getPrize1() {
+        return Prize1;
     }
 
-    public void setLotteryPrize1(String lotteryPrize1) {
-        this.lotteryPrize1 = lotteryPrize1;
+    public void setPrize1(String Prize1) {
+        this.Prize1 = Prize1;
     }
 
-    public String getLotteryPrizeEnd2Digit() {
-        return lotteryPrizeEnd2Digit;
+    public String getPrizeEnd2Digit() {
+        return PrizeEnd2Digit;
     }
 
-    public void setLotteryPrizeEnd2Digit(String lotteryPrizeEnd2Digit) {
-        this.lotteryPrizeEnd2Digit = lotteryPrizeEnd2Digit;
+    public void setPrizeEnd2Digit(String PrizeEnd2Digit) {
+        this.PrizeEnd2Digit = PrizeEnd2Digit;
     }
 
-    public String getLotteryPrizeEnd3Digit() {
-        return lotteryPrizeEnd3Digit;
+    public String getPrizeEnd3Digit() {
+        return PrizeEnd3Digit;
     }
 
-    public void setLotteryPrizeEnd3Digit(String lotteryPrizeEnd3Digit) {
-        this.lotteryPrizeEnd3Digit = lotteryPrizeEnd3Digit;
+    public void setPrizeEnd3Digit(String PrizeEnd3Digit) {
+        this.PrizeEnd3Digit = PrizeEnd3Digit;
     }
 
-    public String getLotteryPrizeTop3Digit() {
-        return lotteryPrizeTop3Digit;
+    public String getPrizeTop3Digit() {
+        return PrizeTop3Digit;
     }
 
-    public void setLotteryPrizeTop3Digit(String lotteryPrizeTop3Digit) {
-        this.lotteryPrizeTop3Digit = lotteryPrizeTop3Digit;
+    public void setPrizeTop3Digit(String PrizeTop3Digit) {
+        this.PrizeTop3Digit = PrizeTop3Digit;
     }
 
-    public String getLotteryPrizeNear1() {
-        return lotteryPrizeNear1;
+    public String getPrizeNear1() {
+        return PrizeNear1;
     }
 
-    public void setLotteryPrizeNear1(String lotteryPrizeNear1) {
-        this.lotteryPrizeNear1 = lotteryPrizeNear1;
+    public void setPrizeNear1(String PrizeNear1) {
+        this.PrizeNear1 = PrizeNear1;
     }
 
-    public String getLotteryPrize2() {
-        return lotteryPrize2;
+    public String getPrize2() {
+        return Prize2;
     }
 
-    public void setLotteryPrize2(String lotteryPrize2) {
-        this.lotteryPrize2 = lotteryPrize2;
+    public void setPrize2(String Prize2) {
+        this.Prize2 = Prize2;
     }
 
-    public String getLotteryPrize3() {
-        return lotteryPrize3;
+    public String getPrize3() {
+        return Prize3;
     }
 
-    public void setLotteryPrize3(String lotteryPrize3) {
-        this.lotteryPrize3 = lotteryPrize3;
+    public void setPrize3(String Prize3) {
+        this.Prize3 = Prize3;
     }
 
-    public String getLotteryPrize4() {
-        return lotteryPrize4;
+    public String getPrize4() {
+        return Prize4;
     }
 
-    public void setLotteryPrize4(String lotteryPrize4) {
-        this.lotteryPrize4 = lotteryPrize4;
+    public void setPrize4(String Prize4) {
+        this.Prize4 = Prize4;
     }
 
-    public String getLotteryPrize5() {
-        return lotteryPrize5;
+    public String getPrize5() {
+        return Prize5;
     }
 
-    public void setLotteryPrize5(String lotteryPrize5) {
-        this.lotteryPrize5 = lotteryPrize5;
+    public void setPrize5(String Prize5) {
+        this.Prize5 = Prize5;
     }
 
 }
-

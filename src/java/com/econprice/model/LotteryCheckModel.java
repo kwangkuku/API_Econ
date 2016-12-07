@@ -5,21 +5,20 @@
  */
 package com.econprice.model;
 
-/**
- *
- * @author Acer
- */
+
 public class LotteryCheckModel {
     
-     private String checkLottery = "คุณไม่ถูกรางวัล";
+     private boolean checkLottery ;
 
-    public String getCheckLottery() {
+    public boolean isCheckLottery() {
         return checkLottery;
     }
 
-    public void setCheckLottery(String checkLottery) {
+    public void setCheckLottery(boolean checkLottery) {
         this.checkLottery = checkLottery;
     }
+
+  
 
   
 }

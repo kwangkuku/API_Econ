@@ -5,58 +5,94 @@
  */
 package com.econprice.model;
 
+import java.awt.SystemColor;
+import java.lang.annotation.Annotation;
+import javax.ejb.Singleton;
+
 /**
  *
  * @author Acer
  */
 public class WeatherModel {
+
+    private String provinceNameTh;
+    private String maxTemperature;
+    private String windDirection;
+    private String windSpeed;
+    private String weatherDescription;
+    private String tempartureLevel;
+ 
+    public WeatherModel(String provinceNameTh, String maxTemperature, String windDirection,
+            String windSpeed,String weatherDescription ,String tempartureLevel) {
+
+        this.provinceNameTh= provinceNameTh;
+        this.maxTemperature = maxTemperature;
+        this.windDirection = windDirection;
+        this.windSpeed = windSpeed;
+        this.weatherDescription = weatherDescription;
+        this.tempartureLevel = tempartureLevel;
+       
     
-    
-    private String Province = "นนทบุรี";
-    private String Temperature = "40 ";
-    private String WindDirection = "100";
-    private String WindSpeed = "20";
-    private String RelativeHumidity = "33";
-
-    public String getProvince() {
-        return Province;
     }
 
-    public void setProvince(String Province) {
-        this.Province = Province;
+    public String getProvinceNameTh() {
+        return provinceNameTh;
     }
 
-    public String getTemperature() {
-        return Temperature;
+    public void setProvinceNameTh(String provinceNameTh) {
+        this.provinceNameTh = provinceNameTh;
     }
 
-    public void setTemperature(String Temperature) {
-        this.Temperature = Temperature;
+   
+
+    public String getMaxTemperature() {
+        return maxTemperature;
     }
+
+    public void setMaxTemperature(String maxTemperature) {
+        this.maxTemperature = maxTemperature;
+    }
+
+   
 
     public String getWindDirection() {
-        return WindDirection;
+        return windDirection;
     }
 
     public void setWindDirection(String WindDirection) {
-        this.WindDirection = WindDirection;
-    }
-
-    public String getWindSpeed() {
-        return WindSpeed;
-    }
-
-    public void setWindSpeed(String WindSpeed) {
-        this.WindSpeed = WindSpeed;
-    }
-
-    public String getRelativeHumidity() {
-        return RelativeHumidity;
-    }
-
-    public void setRelativeHumidity(String RelativeHumidity) {
-        this.RelativeHumidity = RelativeHumidity;
+         this.windDirection = windDirection;
     }
 
     
+
+    public String getWindSpeed() {
+        return windSpeed;
+    }
+
+    public void setWindSpeed(String WindSpeed) {
+        this.windSpeed = windSpeed;
+    }
+
+    public String getWeatherDescription() {
+        return weatherDescription;
+    }
+
+    public void setWeatherDescription(String weatherDescription) {
+        this.weatherDescription = weatherDescription;
+    }
+
+    public String getTempartureLevel() {
+        return tempartureLevel;
+    }
+
+    public void setTempartureLevel(String tempartureLevel) {
+        this.tempartureLevel = tempartureLevel;
+    }
+
+   
+
+    public static void getJSONObject(String porvice) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
 }

@@ -20,9 +20,10 @@
         </action>
         
         <action name="LotteryCheckAction" class="com.econprice.action.LotteryCheckAction">
-            
             <result name = "SUCCESS" type="json"/>
+          
         </action>
+      
         
         <action name="WeatherAction" class="com.econprice.action.WeatherAction">
             
